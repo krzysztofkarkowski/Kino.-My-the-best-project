@@ -1,0 +1,114 @@
+body 
+{
+	font-family:arial;
+}
+input[type=submit]
+{
+	margin-top: 40px;
+	margin-left: 50px;
+	height:50px;
+	width:180px;
+padding: 5px 13px;
+border: 1px solid Black;
+color: black;
+
+text-shadow: 0 0 1px black;
+
+background-color:silver;
+}
+.position
+{
+ width:325px;
+}
+
+.box
+{
+	
+
+height: 500px;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  background-color:white;
+ float:right;
+  
+  margin-right:80px;
+  
+  font-size: 17px;
+  overflow: hidden;
+  
+}
+.numbers
+{
+	letter-spacing:9.5px;
+	margin-left:8px;
+	width:300px;
+}
+
+
+.siedzenie
+{
+	
+	background:url('../pic/chair.png') no-repeat;
+	width:32px;
+	height:32px;
+	
+	float:left;
+	
+}
+.siedzeniez
+{
+	
+	background:url('../pic/chair2.png') no-repeat;
+	width:32px;
+	height:32px;
+	
+	float:left;
+	
+}
+
+
+input[type=checkbox] + label {
+ background:url('../pic/chair.png') no-repeat;
+	width:32px;
+	height:32px;
+	display: inline;
+	float:left;
+	
+} 
+input[type=checkbox]:checked + label {
+  background:url('../pic/chair3.png') no-repeat;
+	width:32px;
+	height:32px;
+	display: inline;
+	float:left;
+
+} 
+
+
+
+.rzadA
+{
+	
+	float:left;
+	width:22%;
+	margin-left:10%;
+	margin-top:7%;
+	
+}
+
+
+
+.ekran
+{ 
+
+margin-top:70px;
+	margin-left:5%;
+}
+.info
+{
+	margin-top:20px;
+	margin-left:175px;
+	color:red;
+}
+

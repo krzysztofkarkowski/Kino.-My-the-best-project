@@ -1,0 +1,369 @@
+body{
+	margin-top:0px;
+	
+	font-family:arial;
+}
+#panel {
+
+
+width: 100%; 
+margin: auto;
+
+
+background: #fff;
+
+
+}
+
+form {
+margin: 0;
+}
+
+label {
+text-align:center;
+display: block;
+
+padding: 8px 5px;
+color: #696969;
+font-size: 16px;
+text-shadow: 0 0 1px silver;
+}
+
+#login, #haslo {
+display: block;
+width: 150px; 
+margin: 0 auto;
+padding: 2px 5px;
+border: 1px solid black;
+outline: 5px solid silver;
+font-size: 15px;
+
+}
+
+
+#lower {
+	width:100%;
+	margin-left: -20px;
+	text-align:center;
+background: #333;
+color:white;
+padding: 5px 20px;
+margin-top: 20px;
+}
+
+.check {
+	
+display: inline;
+float: none;
+font-size: 20px;
+padding: 5px;
+}
+
+input[type="submit"] {
+width: 120px;
+margin-left: -10px;
+padding: 5px 13px;
+border: 1px solid Black;
+color: black;
+text-shadow: 0 0 1px black;
+background: #black;
+
+
+}
+
+#wylog {
+	
+width: 100px;
+margin-left:27%;
+padding: 5px 13px;
+border: 1px solid Black;
+
+text-shadow: 0 0 1px black;
+background: white;
+text-align:center;
+
+}
+
+a 
+{
+	color: Black;
+	text-decoration: none; 
+}
+
+
+
+
+
+
+
+div#container {
+  
+    width: 100%;
+	
+	
+}
+
+div.box1 {
+	position: fixed;
+	left:8px;
+	top:0;
+	margin-left:-8px;
+	
+    
+    width: 100%;
+    height: 50px;
+    background-color:Black ;
+}
+	
+div.box2 {
+	
+ height:auto;
+	margin-top:50px;
+	overflow: hidden;
+    
+   
+    background-color:#CCCCCC;
+}
+
+div.box3 {
+	
+	margin-top:5px;
+    width: auto;
+    height: 8%;
+    background-color:#999999 ;
+}
+
+ul {
+	margin-top:5px;
+    list-style-type: none;
+  
+   height:40px;
+   width:100%;
+   
+    overflow: hidden;
+    background-color: #333;
+	
+	
+}
+
+li {
+	margin-left:10px;
+    float: left;
+	text-align:center;
+	
+	
+}
+
+li a {
+	
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 15px;
+    text-decoration: none;
+	
+}
+
+
+li a:hover {
+    background-color: Black;
+}
+	
+	
+h2 
+{
+	margin-top:5px;
+}
+	
+
+	
+	.box
+{
+	margin-left:5%;
+	
+height: 330px;
+  width: 65%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  background-color:white;
+ float:left;
+ 
+  margin-right:50px;
+  margin-bottom:20px;
+  font-size: 8px;
+  overflow: hidden;
+  
+}
+.right-box
+{
+	
+	
+height: auto;
+  width: 20%;
+  border-radius: 5px;
+ 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  background-color:white;
+
+
+ 
+  font-size: 8px;
+  overflow: hidden;
+}
+	
+#title
+{   
+
+	margin-top:-5px;
+	font-size:25;
+	
+}
+#opis 
+
+{
+	line-height:30px;
+	margin-left:35%;
+	font-size:18;
+}
+	
+#dol 
+
+{
+	margin-left:35%;
+	line-height:30px;
+	font-size:15;
+	margin-top:5%;
+	
+}
+#dol-2
+
+{
+	margin-left:65%;
+	margin-top:-11%;
+	font-size:18;
+	
+}
+
+
+
+.pic 
+{
+	
+	margin-top: -8px;
+	float:left;
+}
+
+#pic2
+{
+	text-align:center;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.logo
+{
+	float:right;
+	margin-top:10px;
+	margin-right:20px;
+}
+	
+	.register-box
+{
+	
+margin-left:30%;
+height: auto;
+  width: 40%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  background-color:white;
+ 
+  
+  
+  
+  font-size: 8px;
+  overflow: hidden;
+  
+}
+
+div.register-box2 {
+	
+ min-height:83%;
+	margin-top:50px;
+	
+    
+   
+    background-color:#CCCCCC;
+}
+
+div.register-box3 {
+	
+	margin-top:-14px;
+    width: auto;
+    height: 8%;
+    background-color:#999999 ;
+}
+	
+	
+	.cennikbox
+{
+	margin-left:5%;
+	
+height: 150px;
+  width: 40%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  background-color:white;
+ float:left;
+ 
+  margin-right:50px;
+  margin-bottom:20px;
+  margin-top:20px;
+  font-size: 8px;
+  overflow: hidden;
+  
+}
+
+	#cennikopis 
+
+{
+	clear:right;
+	margin-left:20%;
+	font-size:18;
+}
+
+.prawa
+{
+	margin-left:15px;
+	margin-top:10px;
+	float:left;
+}
+
+.boxkontakt
+{
+	margin-left:3%;
+	
+height: auto;
+  width: 40%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  background-color:white;
+ 
+ 
+  margin-right:50px;
+  margin-bottom:20px;
+  margin-top:20px;
+  font-size: 8px;
+  overflow: hidden;
+  
+}
+
+#opiskontakt
+{
+	margin-left:5%;
+	margin-right:5%;
+	font-size:18;
+}
+
+	
+	
+	
+	
