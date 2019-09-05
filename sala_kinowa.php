@@ -41,11 +41,11 @@ $i++;
      }
      }
 $name = ($_SESSION['logowanie']);
-$dupa=count($miejsca);
+$zlicz=count($miejsca);
 	
 	if ($db=lacz() )
 	{
-	if ( $dupa <'5')
+	if ( $zlicz <'5')
 	{
 	     $zapytanie = "UPDATE sale SET $tresc_zapytania  where id_seansu = $id ;";
 	
@@ -72,7 +72,7 @@ $wynik3 = $db->query($zapytanie3);
 	 
 	     $danee=$tytul.". [ Twoje Miejsca: ".$tresc_zapytania." ]   [ Cena biletów:  ".$cena."zł ]. ";
 	 
-	if (!empty($tresc_zapytania)&& $dupa <'5' )
+	if (!empty($tresc_zapytania)&& $zlicz <'5' )
 	{
 	     $zapytanie2 = "UPDATE klienci SET  $pyk = '$danee'   where login= '$name' ;";
 	
@@ -113,7 +113,7 @@ $wynik3 = $db->query($zapytanie3);
 	}
 	else 
 	{
-			echo "dupa";
+			echo "something wrong";
 	}
 		
 $db -> close(); 
@@ -128,9 +128,9 @@ $db -> close();
 for ( $x = 1 ; $x <= 54 ; $x++ )
 {
 	 $a++;
-	 $dupa='A'.$a;
+	 $dane='A'.$a;
 	echo"<div class='position'>";
-	 if($tablica[$a]==1){echo "<div class='siedzeniez'>";} else {echo "<div class='siedzenie'>";} echo "<input hidden type='checkbox' id=$dupa name='akceptuj[]' value=$dupa "; if($tablica[$a]==1){echo "disabled";}   echo "/>"; if($tablica[$a]==0)echo"<label for=$dupa > </label>";echo"  </div>";
+	 if($tablica[$a]==1){echo "<div class='siedzeniez'>";} else {echo "<div class='siedzenie'>";} echo "<input hidden type='checkbox' id=$dane name='akceptuj[]' value=$dane "; if($tablica[$a]==1){echo "disabled";}   echo "/>"; if($tablica[$a]==0)echo"<label for=$dane > </label>";echo"  </div>";
 	echo"</div>";
 }
 
